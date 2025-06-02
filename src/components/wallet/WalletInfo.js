@@ -144,7 +144,7 @@ export default function WalletInfo() {
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="space-y-2">
-              <div className="text-sm font-medium">Wallet Address</div>
+              <div className="text-sm font-medium">SID</div>
               <div className="flex items-center space-x-2">
                 <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm">
                   {walletInfo?.walletAddress}
